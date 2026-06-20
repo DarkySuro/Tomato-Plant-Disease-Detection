@@ -233,6 +233,9 @@ uv
 ```
 
 ## Google Colab
+```
+Add Colab extension in VS Code
+```
 
 ---
 
