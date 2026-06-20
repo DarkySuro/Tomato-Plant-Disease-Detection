@@ -4,7 +4,7 @@ pandas
 numpy
 matplotlib
 pillow
-tensorflow-cpu
+tensorflow
 scikit-learn
 seaborn
 streamlit
