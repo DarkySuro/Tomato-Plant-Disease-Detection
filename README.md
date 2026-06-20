@@ -60,6 +60,11 @@ Tomato
 | Tomato__Two_Spotted_Spider_Mites |
 | Tomato__YellowLeaf_Curl_Virus    |
 
+![Class Distribution Chart](screenshots/dataset/class_distribution.png)
+
+## Sample Preview
+![Sample Preview](screenshots/dataset/sample_images_all_classes.png)
+
 ---
 
 # 🧠 Model Information
@@ -107,7 +112,8 @@ Fine-Tuning
 | Test Accuracy | 91.55% |
 | Test Loss     | 0.2574 |
 
-## accuracy curve
+## Confusion Matrix 
+![Confusion Matrix](screenshots/evaluation/confusion_matrix.png)
 
 
 ## Fine-Tuned Model
@@ -116,6 +122,9 @@ Fine-Tuning
 | ------------- | ------ |
 | Test Accuracy | 92.36% |
 | Test Loss     | 0.2283 |
+
+## Confusion Matrix for Fine-Tuned Model
+![Confusion Matrix](screenshots/evaluation/fine_tuned_confusion_matrix.png)
 
 Final deployed model:
 
@@ -129,10 +138,10 @@ Final deployed model:
 PlantVillage Dataset
           │
           ▼
-Data Analysis & Visualization
+Exploratory Data Analysis
           │
           ▼
-Data Cleaning & Verification
+Data Visualization
           │
           ▼
 Train / Validation / Test Split
@@ -147,10 +156,13 @@ Transfer Learning (MobileNetV2)
 Feature Extraction Training
           │
           ▼
-Fine-Tuning
+Model Evaluation
+          |
+          ▼
+Fine-Tuning Model
           │
           ▼
-Model Evaluation
+Fine-Tuned Model Evaluation
           │
           ▼
 Model Export
@@ -159,7 +171,7 @@ Model Export
 Streamlit Application
           │
           ▼
-Deployment
+Deployment on Streamlit Cloud
 ```
 
 ---
