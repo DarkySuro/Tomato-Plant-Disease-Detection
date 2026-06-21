@@ -109,8 +109,8 @@ Fine-Tuning
 
 | Metric        | Value  |
 | ------------- | ------ |
-| Test Accuracy | 91.55% |
-| Test Loss     | 0.2574 |
+| Test Accuracy | 90.87% |
+| Test Loss     | 0.2754 |
 
 ## Confusion Matrix 
 ![Confusion Matrix](screenshots/evaluation/confusion_matrix.png)
@@ -375,7 +375,7 @@ The model was evaluated using:
 # 🔬 Transfer Learning Architecture
 
 ```text
-Input Image
+Input Image (224x224x3)
      │
      ▼
 Data Augmentation
@@ -388,11 +388,17 @@ MobileNetV2
 Global Average Pooling
      │
      ▼
-Dense Layer (128)
+Dense Layer (128 Neurons)
      │
      ▼
-Dropout
+Dropout (0.3)
+     |
+     ▼
+Dense Layer (10 Neurons)
      │
+     ▼
+Softmax
+     |
      ▼
 Output Layer (10 Classes)
 ```
