@@ -17,7 +17,7 @@ The final application allows users to upload a tomato leaf image and receive an 
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 * Detect tomato leaf diseases automatically from images.
 * Reduce dependency on manual disease inspection.
@@ -27,7 +27,7 @@ The final application allows users to upload a tomato leaf image and receive an 
 
 ---
 
-# 📊 Dataset Information
+# Dataset Information
 
 ## Dataset
 
@@ -67,7 +67,7 @@ Tomato
 
 ---
 
-# 🧠 Model Information
+# Model Information
 
 ## Base Model
 
@@ -132,7 +132,7 @@ Final deployed model:
 
 ---
 
-# 🔄 Project Pipeline
+# Project Pipeline
 
 ```text
 PlantVillage Dataset
@@ -176,7 +176,7 @@ Deployment on Streamlit Cloud
 
 ---
 
-# 📁 Project Folder Structure
+# Project Folder Structure
 
 ```text
 Tomato-Plant-Disease-Detection/
@@ -210,7 +210,7 @@ Tomato-Plant-Disease-Detection/
 
 ---
 
-# ⚙️ Development Environment
+# Development Environment
 
 ## Operating System
 
@@ -239,7 +239,7 @@ Add Colab extension in VS Code
 
 ---
 
-# 📦 Dependencies
+# Dependencies
 
 ```text
 tensorflow-cpu
@@ -256,7 +256,7 @@ notebook
 
 ---
 
-# 🚀 Installation Guide
+# Installation Guide
 
 ## Method 1: Using UV (Recommended)
 
@@ -296,7 +296,7 @@ uv pip install -r requirements.txt
 
 ---
 
-# 🐍 Installation Using Pip
+# Installation Using Pip
 
 ### Create Virtual Environment
 
@@ -326,7 +326,7 @@ pip install -r requirements.txt
 
 ---
 
-# ▶️ Running the Streamlit Application
+# Running the Streamlit Application
 
 Navigate to the project directory:
 
@@ -348,7 +348,7 @@ http://localhost:8501
 
 ---
 
-# 🖼️ Application Features
+# Application Features
 
 * Upload Tomato Leaf Image
 * Automatic Disease Detection
@@ -359,7 +359,7 @@ http://localhost:8501
 
 ---
 
-# 📊 Evaluation Metrics
+# Evaluation Metrics
 
 The model was evaluated using:
 
@@ -372,7 +372,7 @@ The model was evaluated using:
 
 ---
 
-# 🔬 Transfer Learning Architecture
+# Transfer Learning Architecture
 
 ```text
 Input Image (224x224x3)
@@ -401,11 +401,13 @@ Softmax
      |
      ▼
 Output Layer (10 Classes)
+<img width="1072" height="1356" alt="image" src="https://github.com/user-attachments/assets/b27197b2-028c-40cb-9627-62e4ca7c5aa0" />
+
 ```
 
 ---
 
-# 💡 Future Improvements
+# Future Improvements
 
 * Multi-Crop Disease Detection
 * Disease Severity Classification
@@ -416,7 +418,7 @@ Output Layer (10 Classes)
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 ### Surojit Jana
 
@@ -426,7 +428,7 @@ Government College of Engineering and Leather Technology
 
 ---
 
-# 📜 License
+# License
 
 This project is developed for educational and research purposes.
 
