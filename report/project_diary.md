@@ -466,7 +466,7 @@ Callbacks:
 
 ---
 
-## Date: 16-062026
+## Date: 16-06-2026
 
 ---
 
@@ -581,7 +581,7 @@ Improved performance by unfreezing upper layers.
 
 ---
 
-## Date:
+## Date: 18-06-2026
 
 ---
 
@@ -622,7 +622,7 @@ Tomato Mosaic Virus:
 
 ---
 
-## Date:
+## Date: 18-06-2026
 
 ---
 
@@ -657,7 +657,7 @@ Saved:
 
 ---
 
-## Date:
+## Date: 19-06-2026
 
 ---
 
@@ -693,7 +693,7 @@ Developed a web-based prediction application.
 
 ---
 
-## Date:
+## Date: 19-06-2026
 
 ---
 
@@ -726,7 +726,7 @@ Double preprocessing of images.
 
 ---
 
-## Date:
+## Date: 20-06-2026
 
 ---
 
@@ -754,7 +754,7 @@ Prepared complete project documentation.
 
 ---
 
-## Date:
+## Date: 20-06-2026
 
 ---
 
@@ -789,303 +789,4 @@ Successfully developed a Deep Learning-based Tomato Plant Disease Detection Syst
 * Debugging and Problem Solving
 * End-to-End Machine Learning Workflow
 
-
 --------------------------------------------------------------------------------
-
-Date: 04-06-2026
-
-Task: 2
-Acquired the PlantVillage dataset and selected the tomato disease dataset for the project.
-
-Technical Details:
-
-* Downloaded the PlantVillage dataset.
-* Selected 10 tomato disease categories for the project.
-* Stored the dataset inside the project directory.
-
-Challenges:
-None.
-
-Outcome:
-Dataset acquisition completed successfully.
-
-Learning:
-
-* Learned how image datasets are organized into class-wise folders.
-* Understood the role of labeled datasets in supervised learning.
-
---------------------------------------------------------------------------------
-
-Date: 04-06-2026
-
-Task: 3
-Installed required Python libraries using UV.
-
-Technical Details:
-
-* Installed NumPy.
-* Installed Pandas.
-* Installed Matplotlib.
-* Installed Pillow.
-
-Challenges:
-None.
-
-Outcome:
-Basic data analysis dependencies successfully installed.
-
-Learning:
-
-* Learned the purpose of each library in machine learning workflows.
-* Understood the role of Pandas and Matplotlib in exploratory data analysis.
-
---------------------------------------------------------------------------------
-
-Date: 05-06-2026
-
-Task: 4
-Configured notebook support and resolved development environment issues.
-
-Technical Details:
-
-* Added notebook dependency.
-* Configured Jupyter notebook environment.
-* Verified package imports inside notebooks.
-
-Challenges:
-Pylance reported "reportMissingModule" errors while importing NumPy, Pandas and Matplotlib.
-
-Outcome:
-Issue resolved successfully and development environment finalized.
-
-Learning:
-
-* Learned how Python interpreters and virtual environments interact with VS Code.
-* Understood how Pylance resolves project dependencies.
---------------------------------------------------------------------------------
-
-Date: 05-06-2026
-
-Task: 5
-Created dataset analysis and visualization notebooks.
-
-Technical Details:
-
-* Created dataset analysis notebook.
-* Generated class distribution statistics.
-* Performed preliminary exploratory data analysis (EDA).
-
-Challenges:
-Disease class names were too long and caused readability issues in charts.
-
-Outcome:
-Replaced raw folder names with human-readable disease labels and adopted horizontal bar charts for better visualization.
-
-Learning:
-
-* Learned the basics of data visualization using Matplotlib.
-* Understood the importance of presentation-ready visualizations for reports and presentations.
-
---------------------------------------------------------------------------------
-
-Date: 06-06-2026
-
-Task: 6
-Published project progress to GitHub.
-
-Technical Details:
-
-* Initialized Git repository.
-* Connected local repository with GitHub.
-* Uploaded current project files.
-
-Challenges:
-Limited understanding of the difference between Git Commit and Git Push.
-
-Outcome:
-Project successfully published to GitHub.
-
-Learning:
-
-* Learned Git workflow fundamentals.
-* Understood the difference between local commits and remote repository updates.
-
---------------------------------------------------------------------------------
-
-Date: 07-06-2026
-
-Task: 7
-Created Train-Validation-Test dataset split.
-
-Technical Details:
-
-* Dataset Size: 16,011 images.
-* Number of Classes: 10.
-* Split Ratio: 70:20:10.
-* Train Images: 11,203.
-* Validation Images: 3,198.
-* Test Images: 1,610.
-* Random Seed: 42.
-
-Challenges:
-None.
-
-Outcome:
-Dataset successfully divided into Train, Validation and Test subsets.
-
-Learning:
-
-* Learned the importance of dataset splitting.
-* Understood how train, validation and test datasets serve different purposes.
-* Learned the concept of reproducibility through random seeds.
-
---------------------------------------------------------------------------------
-
-Date: 08-06-2026
-
-Task: 8
-Improved repository structure.
-
-Technical Details:
-
-* Added .gitignore.
-* Added README.md.
-* Organized project folders.
-
-Challenges:
-None.
-
-Outcome:
-Cleaner and more maintainable repository structure.
-
-Learning:
-
-* Learned Git best practices.
-* Understood the importance of excluding unnecessary files from version control.
-
---------------------------------------------------------------------------------
-
-Date: 09-06-2026
-
-Task: 9
-Improved Git workflow and commit management.
-
-Technical Details:
-
-* Updated commit messages.
-* Performed commit history cleanup.
-
-Challenges:
-Difficulty working with Git's default editor (Vim).
-
-Outcome:
-Successfully changed Git editor to VS Code and improved commit workflow.
-
-Learning:
-
-* Learned interactive Git commands.
-* Learned Git rebase basics.
-* Improved version control workflow.
-
---------------------------------------------------------------------------------
-
-Date: 09-06-2026
-
-Task: 10
-Created compressed dataset package.
-
-Technical Details:
-
-* Created tomato_dataset.zip.
-* Included Train, Validation and Test datasets.
-
-Challenges:
-Dataset size increased unexpectedly after multiple executions of dataset splitting scripts due to the use of shuffling during each run. New images were added to the split folders over multiple executions, causing the dataset volume to grow.
-
-Outcome:
-Identified the cause of dataset growth and corrected the splitting process to prevent additional images from being added during repeated executions.
-
-Learning:
-
-* Learned how repeated execution of dataset splitting scripts can unintentionally increase dataset size when shuffled outputs are written to existing folders.
-* Understood the importance of clearing output directories and verifying dataset integrity before rerunning preprocessing scripts.
-
---------------------------------------------------------------------------------
-
-Date: 09-06-2026
-
-Task: 11
-Performed Exploratory Data Analysis (EDA).
-
-Technical Details:
-
-* Analyzed 10 tomato disease classes.
-* Calculated class distribution.
-* Generated dataset statistics.
-* Identified class imbalance.
-
-Dataset Statistics:
-
-* Total Classes: 10
-* Total Images: 16,011
-* Largest Class: Tomato Yellow Leaf Curl Virus (3,208 images)
-* Smallest Class: Tomato Mosaic Virus (373 images)
-* Average Images Per Class: 1,601.1
-
-Challenges:
-Long disease names reduced chart readability.
-
-Outcome:
-Successfully generated professional disease distribution visualizations and identified class imbalance.
-
-Learning:
-
-* Learned how to perform exploratory data analysis.
-* Understood class imbalance and its impact on machine learning models.
-* Learned how data visualization supports decision making.
-
---------------------------------------------------------------------------------
-
-Date: 09-06-2026
-
-Task: 11
-Configured Google Colab training environment.
-
-Technical Details:
-* Enabled GPU runtime.
-* Mounted Google Drive.
-* Uploaded tomato_dataset.zip.
-* Extracted dataset inside Colab environment.
-
-Challenges:
-None.
-
-Outcome:
-Dataset successfully loaded into Google Colab and ready for model training.
-
-Learning:
-* Learned how to connect Google Drive with Google Colab.
-* Understood the workflow of cloud-based model training.
---------------------------------------------------------------------------------
-
-Date: 09-06-2026
-
-Task: 12
-Configured MobileNetV2 training notebook in Google Colab.
-
-Technical Details:
-* Initialized TensorFlow 2.20 environment.
-* Verified GPU availability (NVIDIA T4).
-* Updated imports to match current Keras implementation in Colab.
-
-Challenges:
-Differences observed between tensorflow.keras and keras import styles.
-
-Outcome:
-Resolved import compatibility issue and aligned notebook with the Colab runtime environment.
-
-Learning:
-* Learned the relationship between TensorFlow and Keras.
-* Understood how framework versions can affect import conventions.
---------------------------------------------------------------------------------
-
