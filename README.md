@@ -103,7 +103,7 @@ Fine-Tuning
 
 ---
 
-# 📈 Model Performance
+# 📈 Base Model Performance
 
 ## Feature Extraction Model
 
@@ -113,7 +113,9 @@ Fine-Tuning
 | Test Loss     | 0.2754 |
 
 ## Confusion Matrix 
-![Confusion Matrix](screenshots/evaluation/confusion_matrix.png) ![Classification Report](screenshots/evaluation/classification_report.jpg)
+![Confusion Matrix](screenshots/evaluation/confusion_matrix.png) 
+## Classification Report
+![Classification Report](screenshots/evaluation/classification_report.JPG)
 
 
 
@@ -125,7 +127,9 @@ Fine-Tuning
 | Test Loss     | 0.2283 |
 
 ## Confusion Matrix for Fine-Tuned Model
-![Confusion Matrix](screenshots/evaluation/fine_tuned_confusion_matrix.png) ![Classification Report](screenshots/evaluation/fined_tuned_classification_report.jpg)
+![Confusion Matrix](screenshots/evaluation/fine_tuned_confusion_matrix.png) 
+## Classification Report for Fine-Tuned Model
+![Classification Report](screenshots/evaluation/fine_tuned_classification_report.jpg)
 
 Final deployed model:
 
