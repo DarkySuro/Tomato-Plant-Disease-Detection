@@ -27,6 +27,13 @@ The final application allows users to upload a tomato leaf image and receive an 
 
 ---
 
+# Frontend
+
+![Streamlit Frontend](screenshots/application/frontend2.JPG)
+
+*live Preview:* <https://tomato-plant-disease-detection-vyn5jgsnxcua3okc8evjwk.streamlit.app/>
+---
+
 # Dataset Information
 
 ## Dataset
