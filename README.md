@@ -113,7 +113,8 @@ Fine-Tuning
 | Test Loss     | 0.2754 |
 
 ## Confusion Matrix 
-![Confusion Matrix](screenshots/evaluation/confusion_matrix.png)
+![Confusion Matrix](screenshots/evaluation/confusion_matrix.png) ![Classification Report](screenshots/evaluation/classification_report.jpg)
+
 
 
 ## Fine-Tuned Model
@@ -124,7 +125,7 @@ Fine-Tuning
 | Test Loss     | 0.2283 |
 
 ## Confusion Matrix for Fine-Tuned Model
-![Confusion Matrix](screenshots/evaluation/fine_tuned_confusion_matrix.png)
+![Confusion Matrix](screenshots/evaluation/fine_tuned_confusion_matrix.png) ![Classification Report](screenshots/evaluation/fined_tuned_classification_report.jpg)
 
 Final deployed model:
 
